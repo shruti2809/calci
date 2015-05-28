@@ -1,6 +1,6 @@
-$primary-color: #fb7777; //alizarin
-$secondary-color: #95a5a6;
-$lighter-primary-color: #bdc3c7;
+$primary-color: #8e44ad; // Wisteria
+$lighter-primary-color: #9b59b6; //Amethyst
+$secondary-color: #ecf0f1; // Clouds
 
 .vcenter {
   position: relative;
@@ -8,11 +8,10 @@ $lighter-primary-color: #bdc3c7;
   transform: translateY(-50%);
 }
 
-html{
-  background-color: $primary-color;
-
+html {
+  background-color: $secondary-color;
   
-  body{
+  body {
     height: 100vh;
   }
   
@@ -20,8 +19,7 @@ html{
     width: 48vmin;
     height: 84vmin;
     background-color: $lighter-primary-color;
-    color: #0b8d84;
-  
+    color: $secondary-color;
     
     #result {
       background-color: #2c3e50;
@@ -33,7 +31,7 @@ html{
     }
     
     #preview {
-      background-color: #fbdcce;
+      background-color: #7f8c8d;
       height: 8vmin;
       text-align: right;
       line-height: 8vmin;
@@ -50,22 +48,21 @@ html{
       line-height: 12vmin;
       font-size: 3vmin;
       border: 1px solid $lighter-primary-color;
-    
-      
-      &#plus {
+
+      &#key-PLUS {
         height: 24vmin;
         line-height: 24vmin;
       }
-    
       
       &:hover {
-        background-color: #ff9f88	;
+        background-color: $lighter-primary-color;
       }
       
-      &:active{
-        background-color: #ff4646;
+      &:active, &.active {
+        background-color: darken($primary-color, 5%);
       }
     }
+    
     .key-group {
       padding: 0;
     }
