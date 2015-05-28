@@ -1,4 +1,4 @@
-$primary-color: #66cdaa; //alizarin
+$primary-color: #fb7777; //alizarin
 $secondary-color: #95a5a6;
 $lighter-primary-color: #bdc3c7;
 
@@ -20,7 +20,7 @@ html{
     width: 48vmin;
     height: 84vmin;
     background-color: $lighter-primary-color;
-    color: #ecf4f9;
+    color: #0b8d84;
   
     
     #result {
@@ -59,11 +59,11 @@ html{
     
       
       &:hover {
-        background-color: #b2e5cd;
+        background-color: #ff9f88	;
       }
       
       &:active{
-        background-color: #22ab85;
+        background-color: #ff4646;
       }
     }
     .key-group {
