@@ -20,7 +20,7 @@ html{
     width: 48vmin;
     height: 84vmin;
     background-color: $lighter-primary-color;
-    color: $primary-color;
+    color: $secondary-color;
   
     
     #result {
@@ -45,13 +45,11 @@ html{
       padding: 0;
       height: 12vmin;
       background-color: $primary-color;
-      color: #2c3e50;
-     // border: 1px solid transparent;
       box-sizing: border-box;
       text-align: center;
       line-height: 12vmin;
-      font-size: 3vmin; 
-      border: 1px solid $lighter-primary-color ;
+      font-size: 3vmin;
+      border: 1px solid $lighter-primary-color;
     
       
       &#plus {
