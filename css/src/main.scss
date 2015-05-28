@@ -44,7 +44,6 @@ html{
     .key {
       padding: 0;
       height: 12vmin;
-      width: 12vmin;
       background-color: $primary-color;
       color: #2c3e50;
      // border: 1px solid transparent;
@@ -52,12 +51,8 @@ html{
       text-align: center;
       line-height: 12vmin;
       font-size: 3vmin; 
+      border: 1px solid $lighter-primary-color ;
     
-      
-      &#equals {
-        width: 24vmin;
-      }
-      
       
       &#plus {
         height: 24vmin;

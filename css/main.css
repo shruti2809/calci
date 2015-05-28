@@ -29,22 +29,20 @@ html {
     html #calculator .key {
       padding: 0;
       height: 12vmin;
-      width: 12vmin;
       background-color: #66cdaa;
       color: #2c3e50;
       box-sizing: border-box;
       text-align: center;
       line-height: 12vmin;
-      font-size: 3vmin; }
-      html #calculator .key#equals {
-        width: 24vmin; }
+      font-size: 3vmin;
+      border: 1px solid #bdc3c7; }
       html #calculator .key#plus {
         height: 24vmin;
         line-height: 24vmin; }
       html #calculator .key:hover {
         background-color: #b2e5cd; }
       html #calculator .key:active {
-        background-color: #13a085; }
+        background-color: #22ab85; }
     html #calculator .key-group {
       padding: 0; }
 
